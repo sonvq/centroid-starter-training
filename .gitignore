@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+Homestead.yaml
+.env
+.idea
+public/Documentation
+_ide_helper.php
+public/themes
+public/modules
+.DS_Store

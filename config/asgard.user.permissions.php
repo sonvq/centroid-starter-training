@@ -1,0 +1,35 @@
+<?php
+return [
+    'user.users' => [
+        'index',
+        'index.backend',
+        'index.api',
+        'create',
+        'store',
+        'edit',
+        'update',
+        'destroy',
+        'resetPassword',
+        'viewProfile',
+        'updateProfile',
+    ],
+//    'user.roles' => [
+//        'index',
+//        'create',
+//        'store',
+//        'edit',
+//        'update',
+//        'removeUserFromRole',
+//        'destroy',
+//    ],
+    'user.groups' => [
+        'index',
+        'create',
+        'store',
+        'edit',
+        'update',
+        'destroy',
+        'removeUserFromGroup',
+        'getUsers',
+    ],
+];
